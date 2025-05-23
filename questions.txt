@@ -1,0 +1,134 @@
+Questão 1 (Nota 2,0) - Durante as aulas de Introdução à Programação em Python, um
+professor do EMC/UFG propôs um desafio para o BIA: estimar o consumo
+mensal de energia de aparelhos residenciais, utilizando um modelo
+simplificado de cálculo adotado em estudos da unidade KWh-
+Residencial/30.
+
+Sabendo que:
+
+Consumo mensal (kWh) = Potência (kW) × Horas por dia × 30
+
+Você deverá implementar um programa que siga os princípios reforçados no nosso material
+online de aula, especialmente em relação à clareza, estrutura e reaproveitamento de
+código.
+O programa deve:
+
+a) Solicitar ao usuário dois valores:
+• a potência do aparelho em kW (ex: 1.2)
+• o tempo médio de uso diário em horas (ex: 4)
+b) Garantir que ambos os valores inseridos sejam positivos e realistas. Caso contrário,
+exiba uma mensagem de erro compatível com os exemplos e estilo das aulas.
+c) Criar uma função chamada calcular_consumo_mensal(pot, horas) que realize o cálculo
+e retorne o consumo mensal estimado.
+d) Apresentar os resultados de forma clara para o usuário.
+
+Questão 2 (nota 2,0) - Durante uma oficina prática proposta por um
+pesquisador do CEIA, você foi convidado a desenvolver um sistema básico
+de controle de finanças pessoais.
+Sabendo que você está acompanhando a disciplina de Introdução à
+Programação, um colega solicitou sua ajuda para criar uma ferramenta que
+auxilie na organização de despesas mensais e na análise do cumprimento
+de metas financeiras.
+O programa deve ser estruturado com base nos princípios aplicados no nosso ambiente de
+prática online de transferência de dados, respeitando clareza, organização e lógica
+estruturada.
+
+a) O programa deve iniciar solicitando do usuário um conjunto de metas de gastos mensais
+por categoria (ex: “Essencial”: R$ 800, “Lazer”: R$ 200).
+b) Em seguida, o sistema deve solicitar ao usuário o número total de lançamentos
+financeiros que deseja registrar.
+c) Para cada lançamento, devem ser coletados:
+• uma descrição da despesa (ex: "Mercado", "Transporte", "Internet")
+• o valor da despesa em reais
+• a categoria correspondente (ex: "Essencial", "Lazer", "Educação", etc.)
+d) Ao final dos registros, o sistema deve gerar um relatório contendo:
+• O total de despesas no mês
+• O gasto total por categoria
+• A média de gastos por categoria
+• A categoria com maior valor gasto
+• Uma análise comparativa entre o valor gasto e as metas inseridas pelo usuário
+
+Questão 3 (nota 2,0) - Durante o desenvolvimento de um projeto climático no CEIA, os
+pesquisadores receberam uma planilha contendo dados de
+temperatura diária de uma cidade brasileira.
+Sabendo que você está acompanhando a disciplina de
+Introdução à Programação em Python com foco em análise de
+dados, foi solicitado que você colaborasse com uma parte do
+pré-processamento e análise exploratória desses dados —
+seguindo as práticas desenvolvidas no módulo de análise com
+Numpy e Pandas do nosso ambiente de prática online.
+
+Você recebeu uma lista contendo 30 temperaturas médias diárias (em °C), uma para cada
+dia do mês. (gere os seus dados e apresente como o fez. )
+Implemente um programa em Python que:
+a) Use o NumPy para calcular:
+• a média das temperaturas
+• a mediana
+• o desvio padrão
+• índice de variação térmica média do mês
+b) Crie um DataFrame do Pandas com os seguintes dados:
+• Dia do mês (1 a 30)
+• Temperatura média do dia
+• Uma coluna chamada "Diferença para a média", representando a diferença entre a
+temperatura do dia e a média mensal (pode ser negativa ou positiva).
+c) Crie uma nova coluna no DataFrame chamada "Classificação térmica", com base nos
+seguintes critérios:
+• “Frio”: temperatura < 18°C
+• “Agradável”: 18°C ≤ temperatura ≤ 25°C
+• “Quente”: temperatura > 25°C
+d) Ao final, apresente os seguintes resultados:
+i. Conte o número total de dias classificados como:
+• “Frio”
+• “Agradável”
+• “Quente”
+ii. Exiba os 5 dias mais quentes e os 5 dias mais frios, com base na temperatura
+média.
+iii. Para cada um desses 10 dias, cruze a classificação térmica com a diferença
+para a média, indicando se o dia ficou:
+• Acima da média mensal
+• Abaixo da média mensal
+• Exatamente na média
+iv. Responda com base nos dados:
+• Houve dias classificados como “Frio” que estavam acima da média do mês?
+• Houve dias classificados como “Quente” que estavam abaixo da média?
+
+Questão 4 (nota 2,5) - Durante uma atividade do Laboratório
+153 do BIA, foi proposto o desafio de desenvolver a lógica
+base de um jogo inspirado no Tetris, utilizando os conceitos
+trabalhados na disciplina de Introdução à Programação —
+com base nas práticas desenvolvidas em nossas aulas,
+somadas às suas pesquisas para os trabalhos da disciplina.
+Você deverá entregar apenas um arquivo de código,
+contendo a implementação comentada do seu mini jogo.
+
+Questão 5 (nota 1,5) - Durante o desenvolvimento do seu projeto final para a disciplina de
+Introdução à Programação, você trabalhou com algum
+framework ou ferramenta tecnológica. Explique através de um
+relato técnico claro e objetivo, respondendo diretamente aos
+itens a seguir:
+
+a) Qual foi o framework ou ferramenta tecnológica utilizada no seu projeto
+final?
+Explique brevemente para que ele serve e por que você (ou seu grupo)
+escolheu usá-lo no desenvolvimento.
+b) Descreva uma funcionalidade concreta do seu projeto que foi construída
+usando esse framework.
+Explique com clareza o que essa funcionalidade faz, como ela foi
+implementada e quais recursos específicos do framework foram aplicados
+para torná-la possível.
+c) Indique alguma funcionalidade ou recurso que você pesquisou, mas ainda
+não conseguiu implementar.
+
+Questão 6 (Extra/Substitutiva) - Esta questão é opcional. Pode ser:
+Usada como substitutiva de uma questão anterior com menor
+desempenho, ou somada como bônus, se entregue junto às outras 5
+questões desenvolvidas, com pontuação extra de até +1,0 ponto (valor
+máximo total da prova: 11,0 pontos)
+Você foi chamado a desenvolver um minissistema interativo em Python que:
+1. Consuma dados em tempo real ou quase real, de alguma fonte online externa;
+(exemplo: dados climáticos globais, preços de criptomoedas, ações, cotações de
+moedas... )
+2. Exiba e atualize as informações aos usuários por meio de uma interface interativa,
+similar a um dashboard.
+
+Boa Prova!
